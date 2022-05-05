@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:wght@500&display=swap');
+
+* {
+	justify-content: center;
+	text-align: center;
+	font-family: pacifico;
+}
+tttttttttttttrrrryyyyuuuuıııoooppüüğlm   <<:..
+body {
+	height: 100vh;
+	background-image: linear-gradient(#dc2424, #4a569d);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mainpageimages {
+	width: 82em;
+	height: 200px;
+	display: flex;
+	align-items: center;
+}
+
+.mainpageitem {
+	border-radius: 100px;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	padding: 5px;
+	filter: grayscale(80%);
+}
+
+.mainpageitem:hover {
+	width: 220px;
+	height: 220px;
+	border-radius: 120px;
+	filter: grayscale(0%);
+}
+
+a {
+	color: white;
+	font-size: 20px;
+}
+
+a:hover {
+	font-size: 22px;
+	color: lightblue;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+#bodyitems {
+	width: auto;
+	height: auto;
+}
+.fooditems {
+	width: auto;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+}
+.pageitem {
+	width: 300px;
+	border-radius: 150px;
+	padding: 20px;
+}
